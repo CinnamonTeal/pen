@@ -23,4 +23,11 @@ class Pen
     puts(written_string)
     return(written_string)
   end
+
+  def self.blue
+    new("blue")
+  end
 end
+
+blue_pen = Pen.new("blue", true)
+blue_pen2 = Pen.blue
